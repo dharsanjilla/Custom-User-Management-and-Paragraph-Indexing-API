@@ -67,6 +67,19 @@ Copy code
 python manage.py runserver
 Access the API at http://127.0.0.1:8000/.
 
+I have used sqlite as database to use postgressql change 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'my_django_project',  # Replace with your database name
+        'USER': 'your_username',  # Replace with your PostgreSQL user
+        'PASSWORD': 'your_password',  # Replace with your PostgreSQL password
+        'HOST': 'localhost',  # Change if your PostgreSQL server is on a different machine
+        'PORT': '5432',  # Default PostgreSQL port
+    }
+}
+
+
 Create User account by navigating to api/register
 To log in into account navigate through api/login
 After logging in  navigate to api/paragraphs to upload paragraph
