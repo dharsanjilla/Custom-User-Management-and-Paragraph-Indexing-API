@@ -1,4 +1,4 @@
-My Awesome Django REST API
+My Django REST framework 
 This is a Django REST API project that allows users to interact with various endpoints for managing paragraphs and performing searches.
 
 Table of Contents
