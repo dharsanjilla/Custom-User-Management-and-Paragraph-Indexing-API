@@ -91,11 +91,4 @@ Configure environment variables and database settings for production.
 Contributing
 Contributions are welcome! Fork the repository, make changes, and submit a pull request.
 
-License
-This project is licensed under the MIT License.
 
-Replace placeholders like your-username, your-repo, and <search_word> with your actual project details. Provide more detailed instructions, API endpoint descriptions, and usage examples as needed.
-
-Remember to include information about how to set up the project, run it locally, and contribute to it. Additionally, mention any specific deployment instructions or considerations for production environments.
-
-Feel free to enhance this README template with any additional sections or information relevant to your project.
