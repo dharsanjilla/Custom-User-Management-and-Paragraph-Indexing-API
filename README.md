@@ -9,8 +9,6 @@ Usage
 API Endpoints
 Testing
 Deployment
-Contributing
-License
 Features
 User authentication and authorization
 CRUD operations for managing paragraphs
@@ -69,13 +67,24 @@ Copy code
 python manage.py runserver
 Access the API at http://127.0.0.1:8000/.
 
+Create User account by navigating to api/register
+To log in into account navigate through api/login
+After logging in  navigate to api/paragraphs to upload paragraph
+To search the words appeared in paragraph navigate to api/search 
+
 Use Postman or any API client to interact with the endpoints.
+
+Json Format for register and login  {"email":"example email","username":"example user","password":"example password"}
+for paragraph {"content":"example paragraph"}
+for search {"word":""}
+
+
 
 API Endpoints
 /api/users/: CRUD operations for users (requires authentication)
 /api/paragraphs/: CRUD operations for paragraphs (requires authentication)
 /api/search/?word=<search_word>: Search for paragraphs containing the specified word
-For detailed API documentation and usage examples, refer to the Postman API documentation or Swagger UI.
+
 
 Testing
 Run unit tests:
