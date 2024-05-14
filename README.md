@@ -68,6 +68,7 @@ python manage.py runserver
 Access the API at http://127.0.0.1:8000/.
 
 I have used sqlite as database to use postgressql change 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
